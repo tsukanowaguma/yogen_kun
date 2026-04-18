@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  agent:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: qol_agent_dev
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    tty: true

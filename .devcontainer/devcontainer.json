@@ -1,0 +1,19 @@
+{
+  "name": "QOL Agent Dev (ARM64)",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "agent",
+  "workspaceFolder": "/app",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "charliermarsh.ruff"
+      ]
+    }
+  },
+  "overrideCommand": true
+}
