@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./backend"
+    ],
+    "python.linting.enabled": true,
+    "python.languageServer": "Pylance"
+}
